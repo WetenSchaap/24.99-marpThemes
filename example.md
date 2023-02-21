@@ -1,12 +1,12 @@
 ---
 marp: true
-theme: reference
+theme: monterosa
 paginate: true
-
+math: katex
 ---
 
 <!-- _class: lead -->
-# Microfluidic computation
+# An example presentation
 
 ## Piet J.M. Swinkels
 
@@ -14,57 +14,44 @@ paginate: true
 
 ---
 
-# Computation with microfluidics
+# Header, but it's not super important
 
-* Physical computing: Cool, but
-  * hard to build
-  * hard to program
-  * hard to scale
-  * and hard to use
-* Make things easier with microfluidics:
-  * Commercially available
-  * Small
-  * Used a lot: no exotic reactions, DNA, etc.
-  * Automatable
+* Monta Rosa is a mountain
+* It is close to the Mont Blanc
+* There is a hiking tour around the mountain: the "Tour de Monta Rosa"
+* Blahblah
+* Random math time: $a^2 + b^2 = c²$
 
 ---
 
-# The concept
+# Another slide, with half an image
 
-![bg right:50% w:500](figures/concept.svg "Photogel")
+![bg left](figures/image1.jpg)
 
-* Convert data into an obstacle pattern in the microfluidic cell
-* Detect flow disturbances due to objects
-* Use ML algorithm to tell you what object was projected based on disturbances
-
----
-
-# Data to obstacle
-
-![bg vertical right:50% w:450](figures/imagetopattern.svg "imagepattern")
-![bg right:50% w:450](figures/dmd2.jpg "DMD")
-
-* Convert data to illumination pattern
-  * ~100x100 px, px in the order of 50μm
-* Project pattern using DMD
+* Look at the cute bird!
+* It is so cute!
+* It is riding a skateboard on top of another scateboard!
+* There is also some math: $a = 3x^2 + 4$
 
 ---
 
-# Data to obstacle
+# Another slide, with 2 images
 
-![center width:2000px](figures/photogelator.svg "Photogel")
+![bg vertical right:30% w:450](figures/image1.jpg)
+![bg vertical right:30% w:450](figures/image3.jpg)
 
-* Using photo-gellator turns to gel when exposed to specific wavelengths
-* Hydrogel can also be destroyed for next experiment
-* So pattern is converted to obstacle
+* Now there are two cool birds
+* Look at their cuteness
+* It is all-overpowering, omg!
+* The second one is on the train!
 
 ---
 
-# Doing the experiment
+# Centered image
 
-* Convert input data to pattern (~100x100 pixels, px size in the order of 50μm)
-* Project pattern using DMD, forms hydrogel obstacles in channel
-* Flow in 3 channels with tracer particles
-* Detect flow sculpting, output tracer particle distribution.
+1. This is a centered image
+2. It is a little bird on a surfboard!
+3. Look at her go
+4. She has arms - WEIRRRD.
 
-![center width:800](figures/setup.svg)
+![center h:300px](figures/image2.png)
