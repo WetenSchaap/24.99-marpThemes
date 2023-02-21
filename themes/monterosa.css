@@ -1,0 +1,65 @@
+/* @theme monterosa */
+
+@import 'default';
+
+:root {
+    --color-background: #fff;
+    --color-foreground: #333;
+    --color-highlight: #000000;
+}
+
+section {
+    background-image: none;
+    padding-top: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/*https://github.com/marp-team/marpit/issues/271, set page number as x / y*/
+section::after {
+    font-weight: 400;
+    content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
+}
+/* Make centering of images with center keyword possible */
+img[alt~="center"] {
+    display: block;
+    margin: 0 auto;
+}
+/* Headers */
+/* header {
+    all: unset;
+    grid-area: header;
+    background-color: #000000;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 700;
+} */
+
+/* Set h1 section header as if it is a header */
+h1 {
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    height: 30pt;
+    font-size: 24pt;
+    line-height: 30pt;
+    background: black;
+    color: white;
+}
+
+/*The following only to lead slide*/
+section.lead h1 {
+    text-align: left;
+    font-size: 3em;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background: none;
+    color: black;
+}
+
+section.lead h1 strong {
+    -webkit-text-stroke: 1px #000000;
+}
