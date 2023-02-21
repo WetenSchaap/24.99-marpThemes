@@ -1,0 +1,30 @@
+/* @theme monorosa */
+
+@import 'monterosa';
+
+:root {
+    --color-background: #fff;
+    --color-foreground: rgb(130, 130, 130);
+    --color-highlight: #000000;
+}
+
+section {
+    font-family: "dejavu sans mono", "liberation mono";
+}
+
+h1 {
+    font-family: "liberation mono";
+}
+
+section.lead h1 {
+    font-family: "dejavu sans mono";
+}
+
+section.lead h2 {
+    font-family: "iosevka";
+
+}
+
+section.lead h3 {
+    font-family: "iosevka";
+}
