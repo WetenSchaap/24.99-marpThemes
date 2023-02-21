@@ -6,13 +6,15 @@
     --color-background: #fff;
     --color-foreground: #333;
     --color-highlight: #000000;
+    --topbar-height: 50px;
 }
 
 section {
     background-image: none;
-    padding-top: 0px;
+    padding-top: var(--topbar-height);
     padding-left: 40px;
     padding-right: 40px;
+    padding-bottom: 0px;
 }
 
 /*https://github.com/marp-team/marpit/issues/271, set page number as x / y*/
@@ -44,7 +46,7 @@ h1 {
     right: 0px;
     height: 30pt;
     font-size: 24pt;
-    line-height: 30pt;
+    line-height: var(--topbar-height);
     background: black;
     color: white;
 }
