@@ -5,16 +5,6 @@ paginate: true
 math: katex
 ---
 
-<style>
-blockquote {
-  margin: 1em 0 0;
-  padding: 0 1em;
-  position: relative;
-  background: #2d2d2d;
-  color: #ffffff;
-}
-</style>
-
 <!-- _class: lead -->
 # An example presentation
 
