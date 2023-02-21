@@ -1,9 +1,15 @@
 ---
 marp: true
-theme: monterosa
+theme: monorosa
 paginate: true
 math: katex
 ---
+
+<style>
+/* section.lead h1 {
+     font-size: 60px;
+} */
+</style>
 
 <!-- _class: lead -->
 # An example presentation
