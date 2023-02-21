@@ -5,12 +5,25 @@ paginate: true
 math: katex
 ---
 
+<style>
+blockquote {
+  margin: 1em 0 0;
+  padding: 0 1em;
+  position: relative;
+  background: #2d2d2d;
+  color: #ffffff;
+}
+</style>
+
 <!-- _class: lead -->
 # An example presentation
 
 ## Piet J.M. Swinkels
 
-2023-02-22
+
+### Meeting of serious science
+
+### 2022-02-22
 
 ---
 
@@ -20,7 +33,7 @@ math: katex
 * It is close to the Mont Blanc
 * There is a hiking tour around the mountain: the "Tour de Monta Rosa"
 * Blahblah
-* Random math time: $a^2 + b^2 = c²$
+* Random maths time: $a^2 + b^2 = c^2$
 
 ---
 
@@ -55,3 +68,26 @@ math: katex
 4. She has arms - WEIRRRD.
 
 ![center h:300px](figures/image2.png)
+
+---
+
+# Also show quotes and code
+
+> This is stuff in a quote, and is supposed to be highlighted.
+> Things her should be:
+> * Highlighted
+> * Easy to read!
+> * Anything else?
+
+\
+Below I show some code:
+
+
+``` python
+"""This is a block of code"""
+import numpy as np
+import matplotlib.pyplot as plt
+x = np.linspace(0,1,100)
+y = x**2 + 3*x
+plt.plot(x,y)
+```
