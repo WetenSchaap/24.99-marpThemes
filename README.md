@@ -1,3 +1,3 @@
 # Marp Themes
 
-A repo containing my persoanl themes for Marp. Feel free to use them :)
+A repo containing my personal themes for Marp. Feel free to use them :)

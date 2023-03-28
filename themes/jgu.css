@@ -1,0 +1,108 @@
+/* @theme jgu */
+
+@import 'default';
+:root {
+    --color-background: #fff;
+    --color-foreground: #000090ff;
+    /* Blue*/
+    --color-highlight: #f40420;
+    /*Red*/
+}
+
+section {
+    font-family: "arial";
+    background-image: none;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+}
+
+/* https://github.com/marp-team/marpit/issues/271, set page number as x / y
+section::after {
+    font-weight: 400;
+    content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
+} */
+
+/*Make centering of images with center keyword possible*/
+img[alt~="center"] {
+    display: block;
+    margin: 0 auto;
+}
+
+/*Set h1 section header as if it is a header*/
+h1 {
+    font-family: "arial";
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    height: 30pt;
+    font-size: 32pt;
+    line-height: 50px;
+    background: #000090ff;
+    color: white;
+}
+
+blockquote {
+    margin: 1em 0 0;
+    padding: 0.5em 0.5em;
+    position: relative;
+    background: #000090ff;
+    color: #ffffff;
+}
+
+/*You should not use this directly: there is supposed to be a default background image  */
+
+/* Background image */
+
+section.lead {
+    background: #fff url(https://raw.githubusercontent.com/WetenSchaap/24.99-marpThemes/main/figures/frontpage.svg) no-repeat center center;
+    background-size: cover;
+}
+
+/*Title of presentation*/
+section.lead h1 {
+    text-align: center;
+    font-family: "Arial";
+    font-size: 40pt;
+    position: absolute;
+    left: 0px;
+    top: 180px;
+    background: none;
+    color: #000090ff;
+}
+
+section.lead h1 strong {
+    -webkit-text-stroke: 1px #000000;
+}
+
+/*This should be your name*/
+section.lead h2 {
+    text-align: center;
+    font-family: "Arial";
+    font-size: 35pt;
+    position: relative;
+    left: 0px;
+    top: -80px;
+    background: none;
+    color: #000090ff;
+}
+
+section.lead h2 strong {
+    -webkit-text-stroke: 1px #000000;
+}
+
+/*This should be the date and occasion*/
+section.lead h3 {
+    text-align: center;
+    font-family: "chubbo extralight";
+    font-size: 22pt;
+    position: relative;
+    left: 0px;
+    top: 100px;
+    background: none;
+    color: #000090ff;
+    ;
+}
