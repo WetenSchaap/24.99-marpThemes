@@ -14,12 +14,12 @@ math: katex
 <!-- _class: lead -->
 
 # Presentation Title:
-## This is the subtitle
+
+## Subtitle (or a line like ----)
 
 ### 28 - 03 - 2023 | Group meeting
 
-![bg original](figures/frontpage.svg)
-
+<!-- ![bg original](figures/frontpage.svg) -->
 
 ---
 
@@ -31,7 +31,6 @@ math: katex
 > * Highlighted
 > * Easy to read!
 > * Anything else?
-
 
 ---
 
