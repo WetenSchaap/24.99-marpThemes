@@ -42,6 +42,8 @@ math: katex
 * Blahblah
 * Random maths time: $a^2 + b^2 = c^2$
 
+<sub> Let us include a reference
+
 ---
 
 # Another slide, with half an image
@@ -52,6 +54,8 @@ math: katex
 * It is so cute!
 * It is riding a skateboard on top of another scateboard!
 * There is also some math: $a = 3x^2 + 4$
+
+<sub> Is that how you write skateboard?
 
 ---
 
